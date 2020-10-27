@@ -9,6 +9,8 @@ body  {
         
 }
 
+/* login - register */
+
 #container-login {
     background-color: #1D1F20;
     position: relative;
@@ -192,3 +194,6 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 3px;
 }
+
+
+/* index */
