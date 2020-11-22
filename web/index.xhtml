@@ -5,6 +5,7 @@
     <h:head>
 
         <title>UNI AJC SEMESTRE 6</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
         <link rel="stylesheet" href="main.css"></link>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
@@ -39,10 +40,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.hxtml">Inicio<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="nosotros.xhtml">Nosotros</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -139,7 +140,19 @@
         </div>
 
 
+        <br />
+        <h:link outcome="/reservas/List" value="Show All Reservas Items"/>
+        <br />
+        <h:link outcome="/usuario/List" value="Show All Usuario Items"/>
+        <br />
+        <h:link outcome="/pages/reservas/List" value="Show All Reservas Items"/>
+        <br />
+        <h:link outcome="/pages/usuario/List" value="Show All Usuario Items"/>
     </h:body>
+
+
+
+
 
 </html>
 
